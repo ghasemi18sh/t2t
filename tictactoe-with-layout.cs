@@ -88,47 +88,46 @@ namespace t2t_new
                 }
             }
         }
-
-        private void check_game()
+  private void check_game()
         {
             if(mybuttons[0,0].Text=="X" && mybuttons[0, 1].Text == "X" && mybuttons[0, 2].Text == "X")
             {
-                MessageBox.Show(بازیکن اول برنده شد");
+                MessageBox.Show("بازیکن اول برنده شد");
                 new_game();
             }
             if (mybuttons[1, 0].Text == "X" && mybuttons[1, 1].Text == "X" && mybuttons[1, 2].Text == "X")
             {
-                MessageBox.Show(بازیکن اول برنده شد");
+                MessageBox.Show("بازیکن اول برنده شد");
                 new_game();
             }
             if (mybuttons[2, 0].Text == "X" && mybuttons[2, 1].Text == "X" && mybuttons[2, 2].Text == "X")
             {
-                MessageBox.Show(بازیکن اول برنده شد");
+                MessageBox.Show("بازیکن اول برنده شد");
                 new_game();
             }
             if (mybuttons[0, 0].Text == "X" && mybuttons[1, 0].Text == "X" && mybuttons[2, 0].Text == "X")
             {
-                MessageBox.Show(بازیکن اول برنده شد");
+                MessageBox.Show("بازیکن اول برنده شد");
                 new_game();
             }
             if (mybuttons[0, 1].Text == "X" && mybuttons[1, 1].Text == "X" && mybuttons[2, 1].Text == "X")
             {
-                MessageBox.Show(بازیکن اول برنده شد");
+                MessageBox.Show("بازیکن اول برنده شد");
                 new_game();
             }
             if (mybuttons[0, 2].Text == "X" && mybuttons[1, 2].Text == "X" && mybuttons[2, 2].Text == "X")
             {
-                MessageBox.Show(بازیکن اول برنده شد");
+                MessageBox.Show("بازیکن اول برنده شد");
                 new_game();
             }
             if (mybuttons[0, 0].Text == "X" && mybuttons[1, 1].Text == "X" && mybuttons[2, 2].Text == "X")
             {
-                MessageBox.Show(بازیکن اول برنده شد");
+                MessageBox.Show("بازیکن اول برنده شد");
                 new_game();
             }
             if (mybuttons[0, 2].Text == "X" && mybuttons[1, 1].Text == "X" && mybuttons[2, 0].Text == "X")
             {
-                MessageBox.Show(بازیکن اول برنده شد");
+                MessageBox.Show("بازیکن اول برنده شد");
                 new_game();
             }
 
@@ -179,6 +178,7 @@ namespace t2t_new
                 new_game();
             }
         }
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
